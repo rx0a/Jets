@@ -1,7 +1,7 @@
 package com.skilldistillery.jets.entity;
 
 public abstract class Jet {
-	private int JetId;
+	private int jetId;
 	private String model;
 	private double speed;
 	private double range;
@@ -68,9 +68,9 @@ public abstract class Jet {
 		this.type = type;
 	}
 	public int getId() {
-		return JetId;
+		return jetId;
 	}
 	public void setId(int id) {
-		this.JetId = id;
+		this.jetId = id;
 	}
 }

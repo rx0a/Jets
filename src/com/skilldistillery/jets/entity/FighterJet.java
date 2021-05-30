@@ -7,16 +7,16 @@ public class FighterJet extends Jet implements CombatReady {
 	}
 
 	@Override
-	public void fight() {
-		System.out.println("| Fighter Jet " + getModel() + " is locked on target!");
-	}
-
-	@Override
 	public void fly() {
 
 		System.out.println("| Fighter Jet " + getModel() + " flies for " + getFlightTime() + " hours at "
 				+ getMachSpeed() + " machs.");
 
+	}
+
+	@Override
+	public void fight() {
+		System.out.println("| Fighter Jet " + getModel() + " is locked on target!");
 	}
 
 }

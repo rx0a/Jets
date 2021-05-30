@@ -9,12 +9,6 @@ public class CargoJet extends Jet implements CargoCarrier {
 	}
 
 	@Override
-	public void loadCargo() {
-		cargoLoaded = true;
-		System.out.println("| All cargo is loaded to " + getModel());
-	}
-
-	@Override
 	public void fly() {
 
 		if (cargoLoaded == false) {
@@ -26,6 +20,12 @@ public class CargoJet extends Jet implements CargoCarrier {
 					"| Cargo Jet " + getModel() + " flies for " + getFlightTime() + " hours with a full cargo hold.");
 
 		}
+	}
+
+	@Override
+	public void loadCargo() {
+		cargoLoaded = true;
+		System.out.println("| All cargo is loaded to " + getModel());
 	}
 
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
 import com.skilldistillery.jets.entity.AirField;
 
 public class JetsApplication {
-	AirField a = new AirField();
+	private AirField a = new AirField();
 
 	public static void main(String[] args) throws IOException {
 		JetsApplication j = new JetsApplication();
@@ -14,7 +14,7 @@ public class JetsApplication {
 		j.run(kb);
 	}
 
-	public void run(Scanner kb) throws IOException {
+	private void run(Scanner kb) throws IOException {
 
 		lines();
 		System.out.println("|              Main Menu              |");
@@ -90,11 +90,11 @@ public class JetsApplication {
 		} while (repeat);
 	}
 
-	public void lines() {
+	private void lines() {
 		System.out.println("|-------------------------------------|");
 	}
 
-	public void cont(Scanner kb) throws IOException {
+	private void cont(Scanner kb) throws IOException {
 		System.out.println("| Press [ Enter ] for Main Menu       |");
 		lines();
 		if (kb.next().equals("")) {
@@ -104,7 +104,7 @@ public class JetsApplication {
 		}
 	}
 
-	public void goodbye() {
+	private void goodbye() {
 		lines();
 		System.out.println("|              Goodbye!               |");
 		lines();
