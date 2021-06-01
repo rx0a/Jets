@@ -84,6 +84,7 @@ public class JetsApplication {
 
 			case 9:
 				goodbye();
+				repeat = false;
 				break;
 			}
 
