@@ -16,4 +16,5 @@ Run the program and interact with the menu options to access all functions of th
 The benefit of designing a UML diagram is very clear. This program was a valuable experience for practicing object oriented programming and abstract classses, interfaces, and file IO operations.
 
 ### UML Diagram
-![JetsUML](https://user-images.githubusercontent.com/83374176/120117467-8f3fdd00-c14a-11eb-8649-e9784f19992c.png)
+![JetsUML](https://user-images.githubusercontent.com/83374176/120940458-a34f8580-c6da-11eb-8219-fa70c0269a9a.png)
+
